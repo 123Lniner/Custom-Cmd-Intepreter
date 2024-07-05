@@ -3,7 +3,7 @@ title Command Prompt
 set path=%systemroot%\system32\
 
 :cmdver
-echo Welcome to 123Lniner's command interpreter [Version 2024.7.4.11]
+echo Welcome to 123Lniner's command interpreter [Version 2024.7.5.1]
 echo See "..\LICENSE" for license information.
 echo.
 goto main
@@ -42,7 +42,7 @@ goto main
 :help
 echo DISPLAY        Displays text of next line.
 echo SETDIR         Changes the current directory to the path specified in the following line.
-echo RUN            Runs a program specified in the following line (use SETDIR to change folders).
+echo RUN            Runs a program specified in the following line (use SETDIR to change directories).
 echo CLS            Clears the screen.
 echo EXIT           Quits the command interpreter.
 echo CMDVER         Displays current command interpreter version.
